@@ -1,0 +1,10 @@
+http://localhost:8000/api/products - get
+http://localhost:8000/api/products/:id - get
+http://localhost:8000/api/orders - get
+http://localhost:8000/api/orders/:id - get
+http://localhost:8000/api/cart/add - post {productId}
+http://localhost:8000/api/cart/remove - post {productId}
+http://localhost:8000/api/cart/increase - post {productId}
+http://localhost:8000/api/cart/decrease - post {productId}
+http://localhost:8000/api/cart/checkout - get
+http://localhost:8000/api/cart - get 
