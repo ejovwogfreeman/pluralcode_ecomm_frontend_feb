@@ -9,4 +9,13 @@ nav {
 nav a {
   text-decoration: none;
   margin-left: 10px;
+  color: var(--primary);
+}
+
+nav a:last-child {
+  background-color: var(--primary);
+  color: var(--white);
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
 }

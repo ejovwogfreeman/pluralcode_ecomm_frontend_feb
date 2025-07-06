@@ -5,11 +5,13 @@ import "../css/Navbar.css";
 const Navbar = () => {
   return (
     <nav>
-      <h1>Ecomm</h1>
+      <Link to="/" style={{ margin: "0px", color: "black" }}>
+        <h1>Ecomm</h1>
+      </Link>
       <ul>
-        <Link>Home</Link>
-        <Link>Carts</Link>
-        <Link>Orders</Link>
+        <Link to="/">Home</Link>
+        <Link to="/cart">Cart</Link>
+        <Link to="/orders">Orders</Link>
       </ul>
     </nav>
   );

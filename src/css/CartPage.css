@@ -1,0 +1,34 @@
+.cart-container {
+  padding: 20px 20%;
+  display: block;
+}
+
+.cart-container h2 {
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.cart-item h4 {
+  margin-bottom: 10px;
+}
+
+.cart-item .btn-group {
+  margin-top: 10px;
+}
+
+.cart-container button {
+  margin-top: 10px;
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin: 3px;
+  cursor: pointer;
+}

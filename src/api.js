@@ -75,7 +75,12 @@ export const getCart = async () => {
 };
 
 export const checkoutCart = async () => {
-  const res = await fetch(`${BASE_URL}/cart/checkout`);
+  const formData = new FormData();
+
+  const res = await fetch(`${BASE_URL}/cart/checkout`, {
+    method: "POST",
+    body: formData,
+  });
   return await res.json();
 };
 
